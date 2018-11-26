@@ -1,0 +1,67 @@
+h1:first-of-type{
+	color:white;
+	font-size:3.6rem;
+}
+ul{
+     list-style:none;
+}
+input[type="text"]{
+    background: transparent;
+    border-style: dashed;
+	color:white;
+	margin-bottom:1%;
+}
+.wrap{
+    background-color: none;  
+    margin-top:12%;
+}
+.center{
+	color:white;
+	font-size:1.1rem;
+}
+.completed{
+text-decoration: line-through;
+color:red;
+}
+.toggleCompletedButton {
+  padding-left: 32px;
+  position: relative;
+}
+.toggleCompletedButton:before {
+  position: absolute;
+  top: 0;
+  left: 10px;
+  content: "\f00c";
+  font-family: Font Awesome\ 5 Free;
+  font-weight: bold;
+}
+
+.deleteButton {
+  padding-left: 32px;
+  position: relative;
+}
+.deleteButton:before {
+  position: absolute;
+  top: 0;
+  left: 10px;
+  content: "\f2ed";
+  font-family: Font Awesome\ 5 Free;
+  font-weight: bold;
+}
+.changeButton {
+  padding-left: 32px;
+  position: relative;
+}
+.changeButton:before {
+  position: absolute;
+  top: 0;
+  left: 10px;
+  content: "\f6e3";
+  font-family: Font Awesome\ 5 Free;
+  font-weight: bold;
+}
+#changeTodoTextInput{
+	color:black;
+	border-style: none;
+	width:100%;
+}
